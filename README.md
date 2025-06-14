@@ -9,7 +9,7 @@ An implementation of the singly linked list data structure using the principles 
 A linked list is a linear data structure where data is stored in nodes and these nodes are connected using pointers. Linked list is stored in non-contiguous memory locations, meaning nodes are stored anywhere in the memory but only connected logically through these links.
 
 <p align="center">
-    <img src="linked_list.png" alt="Linked List representation" width="300" />
+    <img src="linked_list.png" alt="Linked List representation" width="400" />
 </p>
 
 ---
@@ -37,7 +37,7 @@ Imagine a linked list like a treasure map.
 This implementation contains:
 
 -   `Node` class - represents a single node in the list.
--   `LinkedList` class - Handles insertion, deletion, and printing the elements of the list.
+-   `LinkedList` class - handles insertion, deletion, and printing the elements of the list.
 -   `UnderflowError` exception class - raised when the list is empty and some operations are being performed.
 -   `OutOfRangeError` exception class - raised when trying to access an index that is not in the valid range of the list.
 
