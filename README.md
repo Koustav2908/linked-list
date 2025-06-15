@@ -48,13 +48,15 @@ This implementation contains:
 1. Creating list
 
 ```python
+# Creates an empty single linked list.
+
 l_list = LinkedList()
 ```
 
 2. Adding nodes
 
 ```python
-# 10, 20, 30 added back to back.
+# 10, 20, 30 added one after another.
 
 l_list.add(10)
 l_list.add(20)
@@ -78,10 +80,10 @@ l_list.delete(2)
 # Updated list = 10 -> 30 -> NULL
 ```
 
-5. Tring to delete an invalid index
+5. Trying to delete an invalid index
 
 ```python
 l_list.delete(-1)
 
-# Raises OutOfRangeError exception
+# Raises OutOfRangeError exception.
 ```
